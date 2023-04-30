@@ -12,5 +12,7 @@ function onSumbit(event) {
     email: email.value,
     password: password.value,
   };
+
+  console.log(userValues);
   event.currentTarget.reset();
 }
